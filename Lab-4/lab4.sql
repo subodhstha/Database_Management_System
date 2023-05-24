@@ -16,7 +16,7 @@ from employees;
 
 select * 
 from employees;
-select first_name, salary, job_id,department_id,
+select first_name, salary, job_id, department_id,
 case department_id
     when 10 then salary*1.1
     when 20 then salary*1.2

@@ -1,0 +1,4 @@
+--view
+--create view
+--create or replace
+-- select file_name from user_views

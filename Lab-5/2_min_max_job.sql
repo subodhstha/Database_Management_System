@@ -2,7 +2,7 @@
 --for each job type.
 select job_id, max(salary) Maximum,
     min(salary) minimun, sum(salary) sum,
-    round(avg(salary))
+    round(avg(salary)) average
 from employees
 group by job_id;
 

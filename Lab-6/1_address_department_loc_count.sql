@@ -4,3 +4,8 @@
 select location_id, street_address, city, state_province, country_name
 from locations
 natural join countries;
+
+
+select l.location_id, l.street_address, l.city, l.state_province, c.country_name
+from locations l join countries c
+on(l.country_id = c.country_id);
